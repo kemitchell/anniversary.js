@@ -1,0 +1,18 @@
+{
+  "name": "anniversary",
+  "description": "Calculate the anniversary of a Date",
+  "version": "0.0.0",
+  "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
+  "dependencies": {
+    "leap-day": "~1.0.0"
+  },
+  "devDependencies": {
+    "jsmd-tape": "~0.1.5",
+    "tape": "~4.0.1"
+  },
+  "license": "MIT",
+  "repository": "kemitchell/anniversary.js",
+  "scripts": {
+    "test": "jsmd-tape README.md | sed \"s!'anniversary'!'./'!\" | node"
+  }
+}
