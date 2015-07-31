@@ -1,7 +1,7 @@
 {
   "name": "anniversary",
   "description": "Calculate the anniversary of a Date",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "leap-day": "~1.0.0"
