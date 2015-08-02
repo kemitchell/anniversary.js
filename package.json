@@ -4,7 +4,8 @@
   "version": "1.1.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
-    "leap-day": "~1.0.0"
+    "leap-day": "~1.0.0",
+    "leap-year": "^1.0.0"
   },
   "devDependencies": {
     "defence-cli": "^1.0.1",
