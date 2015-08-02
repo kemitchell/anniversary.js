@@ -7,12 +7,12 @@
     "leap-day": "~1.0.0"
   },
   "devDependencies": {
-    "jsmd-tape": "~0.1.5",
-    "tape": "~4.0.1"
+    "defence-cli": "^1.0.1",
+    "replace-require-self": "^1.0.0"
   },
   "license": "MIT",
   "repository": "kemitchell/anniversary.js",
   "scripts": {
-    "test": "jsmd-tape README.md | sed \"s!'anniversary'!'./'!\" | node"
+    "test": "defence README.md | replace-require-self | node"
   }
 }
